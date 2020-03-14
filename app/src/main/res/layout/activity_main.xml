@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF7DA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#e53935"
+        android:text="Temperature"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        android:paddingTop="30dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#42A5F5"
+        android:text="Weight"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        android:paddingTop="30dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/length"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#FFB300"
+        android:text="Length"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        android:paddingTop="30dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/speed"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#1A237E"
+        android:text="Speed"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        android:paddingTop="30dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:background="#388E3C"
+        android:text="Currency"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        android:paddingTop="30dp"
+        android:textColor="#FFFFFF"/>
+
+
+</LinearLayout>
+
+</ScrollView>
