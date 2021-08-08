@@ -1,2 +1,2 @@
 # Unit-Converter
-convert  units in different categories (temperature - volume - Speed - currency)
+simple android app lets users convert units into different categories (temperature - volume - Speed - currency).
